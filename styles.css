@@ -44,8 +44,19 @@
 
 /* Quick links */
 
-.quick-links {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.footer-links {
+
+
+}
+h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+
+/*Technology Section*/
+.technologies-used {
+
+
 }
