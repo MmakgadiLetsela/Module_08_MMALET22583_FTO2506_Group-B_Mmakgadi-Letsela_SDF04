@@ -1,22 +1,51 @@
 /* Footer Styles*/
 .footer {
     background-color: #659f8f;
-    color: white;
-    
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 100px; 
     margin: 10px;
-    
 }
-
+/* Codespace Logo */
 
 .logo{
-    padding: px-6 py-12
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
-.bottom-line{
+/* Horizontal Line */
+.footer-divider{
     height: 2px;
-    background-color: orangered;
-    border-color: orangered;
-    margin-bottom: 15px
+    background-color: coral;
+    border-color: coral;
+    margin: 25px 25px
+}
+
+
+/* Subscribe Section */
+.subscribe-button{
+    background-color: coral;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.subscribe-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.subscribe-input {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Quick links */
+
+.quick-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
