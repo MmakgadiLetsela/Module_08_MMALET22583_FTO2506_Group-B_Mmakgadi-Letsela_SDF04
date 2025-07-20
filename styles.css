@@ -5,6 +5,18 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 100px; 
     margin: 10px;
+    
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 /* Codespace Logo */
 
@@ -24,6 +36,11 @@
 
 
 /* Subscribe Section */
+.subscribe{
+    flex: 1;
+    min-width: 150px;
+}
+
 .subscribe-button{
     background-color: coral;
     color: white;
@@ -33,7 +50,7 @@
     font-weight: bold;
 }
 .subscribe-title {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -45,18 +62,19 @@
 /* Quick links */
 
 .footer-links {
-
+flex: 1;
+    min-width: 150px;
 
 }
-h2{
-    padding-top: 15px;
-    padding-bottom: 15px;
+
     
-}
+
 
 
 /*Technology Section*/
 .technologies-used {
+    flex: 1;
+    min-width: 150px;
 
 
 }
